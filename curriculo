@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currículo M1</title>
+    <style>
+      .button-linkedin {
+        border: 0px;
+        width: 50px;
+        height: 40px;
+        box-shadow: 5px 5px 5px grey;
+        cursor: pointer;
+        float: left;
+        margin: 0 0 0 10px;
+      }
+      .button-linkedin:hover {
+        border: 0px;
+        background-color: #007fff;
+        width: 60px;
+        border-radius: 10px;
+        transition: all 0.7s ease;
+      }
+      .button-github {
+        border: 0px;
+        width: 50px;
+        height: 40px;
+        margin: 0 0 0 10px;
+        box-shadow: 5px 5px 5px grey;
+        cursor: pointer;
+        float: left;
+      }
+      .button-github:hover {
+        border: 0px;
+        background-color: #7171ad;
+        width: 60px;
+        border-radius: 10px;
+        transition: all 0.7s ease;
+      }
+      .button-whats {
+        border: 0px;
+        width: 50px;
+        height: 40px;
+        margin: 0 0 0 10px;
+        box-shadow: 5px 5px 5px grey;
+        cursor: pointer;
+        float: left;
+      }
+      .button-whats:hover {
+        border: 0px;
+        background-color: #2fde18;
+        width: 60px;
+        border-radius: 10px;
+        transition: all 0.7s ease;
+      }
+      .button-mail {
+        border: 0px;
+        width: 50px;
+        height: 40px;
+        margin: 0 0 0 10px;
+        box-shadow: 5px 5px 5px grey;
+        cursor: pointer;
+        float: left;
+      }
+      .button-mail:hover {
+        border: 0px;
+        background-color: #024b93;
+        width: 60px;
+        border-radius: 10px;
+        transition: all 0.7s ease;
+      }
+    </style>
+  </head>  
+  <body>
+    <!-- Div Principal -->
+    <div style="width: 790px; height: 1050px; border: 1px solid;">     
+
+      <!-- Div Informações laterais -->
+      <div
+        style="
+          background-color: rgba(0, 157, 255, 0.937);
+          width: 250px;
+          height: 1050px;
+          box-shadow: 5px 0px 5px gray;
+          /* border-radius: 100px 100px 0 0; */
+          float: left;
+          text-align: center;
+          /* margin: 5px 0 0 0; */
+        "
+      >
+        <!-- Div Foto -->
+        <div
+          style="
+            width: 200px;
+            height: 200px;
+            border-radius: 100px;
+            margin: 10px 0 0 21px;
+            box-shadow: 5px 5px 5px gray;
+          "
+        >
+          <!-- Imagem Foto de Perfil -->
+          <img src="./Igor.png"
+          alt="Foto de Perfil"
+          width="200px"
+          height="200px"
+          style="border-radius: 100px;"
+          >
+        <!-- Fechamento Div Foto -->
+        </div>
+
+        <!-- Div Corpo de informalções Laterais -->
+        <div style="height: 688px; margin: 10px 0 0 0;">
+
+          <!-- Div Informações Basicas -->
+          <div style="height: 200px;
+                  margin: 20px 0 10px 0;
+                  font-family: Arial, Helvetica, sans-serif;
+                  "
+          >
+            <h1>Perfil pessoal</h1>
+            <h3>
+              Igor Correa<br/>Idade: 22 anos<br>Nascimento: 31/10/2001<br/>Navegantes, Gravatá <br>Av Prefeito Cirino Adolfo Cabral 8103<br/></h3>
+          <!-- Fechamento Div Informações Basicas -->
+          </div>
+
+            <!-- Div Botoões -->
+            <div style="height: 300px;
+                    margin: 0 0 5px 0;
+                    font-size: small;
+                    "
+            >
+              <hr style="width: 200px;">
+              <h1 style="font-family: Arial, Helvetica, sans-serif;">Contatos</h1>
+              <!-- Div Botão Linkedin -->
+              <div style="margin: 10px 0 10px; height: 50px">
+                <!-- Botão Linkedin -->
+                <button id="linkedin" class="button-linkedin" style="float: left; margin: 0 0 0 10px" onclick="window.open('https://www.linkedin.com/in/igor-correa-5b71b427b','_blank')">
+                  <!-- Imagem Linkedin -->
+                  <img
+                    src="./linkedin.png"
+                    alt="Icone Linkedin"
+                    width="30px"
+                    height="30px"
+                  />
+                </button>
+                <!-- Label Linkedin -->
+                <label style="text-align: center; font-family: Arial, Helvetica, sans-serif;"
+                       for="linkedin"><br><strong>Linkedin</strong></label>
+              <!-- Fechamento Div Botão Linkedin -->
+              </div>
+
+              <!-- Div Botão GitHub -->
+              <div style="margin: 10px 0 10px; height: 50px;">
+                <!-- Botão Github -->
+                <button
+                id="github"
+                class="button-github"
+                onclick="window.open('https://github.com/igorcorrea2001', '_blank');"
+                style="float: left; margin: 0 0 0 10px;"
+                >
+                  <!-- Imagem Github -->
+                  <img
+                    src="./github.png"
+                    alt="Icone Github"
+                    width="30px"
+                    height="30px"
+                  />
+                </button>
+                <!-- Label Github -->
+                <label for="github"
+                       style="font-family: Arial, Helvetica, sans-serif;"
+                ><br><strong>Github</strong></label>
+              <!-- Fechamento Botão Github -->
+              </div>
+
+              <!-- Div Botão Whats -->
+              <div style="margin: 10px 0 10px; height: 50px">
+                <!-- Botão Whats -->
+                <button
+                id="whatsapp" 
+                class="button-whats"
+                onclick="window.open('https://api.whatsapp.com/send?phone=5541998619519', '_blank');"
+                style="float: left;"
+                >
+                  <!-- Imagem Whats -->
+                  <img
+                    src="./whatsapp.png"
+                    alt="Icone Whatsapp"
+                    width="30px"
+                    height="30px"
+                  />
+                </button>
+                <!-- Label Whats -->
+                <label for="whatsapp"
+                       style="font-family: Arial, Helvetica, sans-serif;
+                       "
+                ><br><strong>Whatsapp</strong></label>
+              <!-- Fechamento Div Botão Whats -->
+              </div>
+
+              <!-- Div Botão Mail -->
+              <div style="margin: 10px 0 10px; height: 50px;">
+                <!-- Botão Mail -->
+                <button 
+                class="button-mail"
+                style="float: left;"
+                id="mail">
+                  <!-- Imagem Mail -->
+                  <img
+                    src="./mail.png"
+                    alt="Icone e-mail"
+                    width="30px"
+                    height="30px"
+                  />
+                </button>
+                <!-- Label Mail -->
+                <label for="mail"
+                style="font-family: Arial, Helvetica, sans-serif;"
+                ><br><strong>correaigor@edu.univali.br</strong></label>
+              <!--Fechamento Div Botão Mail  -->
+              </div>    
+
+            <!-- Fechamento Div Botões -->
+            </div>
+
+          <hr style="width: 200px;">  
+          <!-- Div Texto Perfil -->
+          <div style="font-family: Arial, Helvetica, sans-serif;">
+            <h1>Soft Skills</h1>
+            <li><strong>Resolução de problemas</strong></li><br>
+            <li><strong>Proatividade</strong></li><br>
+            <li><strong>Flexibilidade</strong></li><br>
+            <li><strong>Respeito a prazos</strong></li><br>
+            <li><strong>Pensamento criativo</strong></li><br>
+              <li><strong>Trabalho em equipe</strong></li><br>
+          <!-- Fechamento Div Texto Perfil -->
+          </div>
+
+        <!-- Fechamento Div Informações Laterais -->         
+        </div> 
+
+      <!-- Fechamento Div Principal --> 
+      </div>
+
+    <!-- Div Texto -->
+    <div style="height: 900px;
+          width: 470px;
+          margin: 0 0 0 280px;        
+          font-family: Arial, Helvetica, sans-serif;
+          "
+          >
+      <!-- Div Texto Experiencias -->
+      <div style="margin: 40px 0 0 0;
+            "
+            >    
+      <h2>Experiência de trabalho:</h2>
+      <h3>Sysmo Sistemas</h3>
+      <ul>
+        <li><strong>Analista de Suporte Técnico</strong></li>
+        <li><strong>Tempo: </strong>17/07/2023 - Atual</li>
+        <li><strong>Funções: </strong>Assistência
+          remota aos Pontos de Venda (PDVs) de supermercados, auxiliar na
+          comunicação de periféricos, como impressoras, pin pad e
+          scanners, migração de sistemas de PDV,implantações de sistemas, banco de dados.
+          </li>        
+      </ul>
+      <h3>Lac Administradora de Condomínios</h3>
+      <ul>
+        <li><strong>Auxiliar de Administração</strong>
+        </li>
+        <li><strong>Tempo: </strong>2022 - 2023</li>
+        <li><strong>Funções: </strong>Contas a receber, contas a pagar, conciliação
+          bancária, lançamentos de notas fiscais, emissão de boletos e
+          orçamentos, cobranças de inadimplentes, suporte de TI, manutenção de
+          equipamentos, configurações de e-mail e impressoras
+          multifuncionais, automatização de processos no sistema com ferramentas, migração de sistemas e banco de
+          dados, intermediação no processo de homologação de contas bancárias, configuração de prestação de contas 100% automatizada e digital para fácil acesso aos clientes.
+          </li>        
+      </ul>
+      <h3>5º Batalhão de Suprimento</h3>
+      <ul>
+        <li><strong>Soldado - Assistente de TI</strong>
+        </li>
+        <li><strong>Tempo: </strong>2020 - 2021</li>
+        <li><strong>Funções: </strong>Help desk, Manutenção de equipamentos, Cabeamento de rede, Configuração de impressoras, Suporte SSH Linux</li>        
+      </ul>
+      <!-- Fechamento Div Texto Experiencias -->
+      </div>
+      <hr>
+      <!-- Div Texto Formações -->
+      <div>
+      <h2>Formações:</h2>
+      <h3>Sistemas Para Internet</h3>
+      <ul>
+        <li><strong>Universidade do Vale do Itajaí</strong></li>
+        <li>Cursando - 4º Semestre</li>
+      </ul>
+      <h3>Ensino Médio</h3>
+      <ul>
+        <li><strong>SESI CIC – Curitiba - PR.</strong></li>
+        <li>2019</li>
+      </ul>
+      <h3>Cybersecurity Essentials
+        </h3>
+      <ul>
+        <li><strong>CISCO NETWORKING ACADEMY</strong></li>
+        <li>2021</li>
+      </ul>
+      <!-- Fechamento Div Texto Formações -->
+      </div>
+      <hr>
+      <!-- Div Texto Ambições -->
+      <div>
+      </div>
+
+    <!-- Fechamento Div Texto -->  
+    </div>
+  </body>
+</html>
